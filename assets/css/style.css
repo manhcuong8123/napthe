@@ -501,4 +501,23 @@ footer .phonesupport:hover {
     z-index: 999;
     cursor: pointer;
 }
-
+@media (min-width: 2000px) {
+    .navbar-expand-xxl {
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+    }
+  
+    .navbar-expand-xxl .navbar-nav {
+      flex-direction: row;
+    }
+  
+    .navbar-expand-xxl .navbar-nav .nav-link {
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
+    }
+  
+    .navbar-expand-xxl .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+    }
+  }
