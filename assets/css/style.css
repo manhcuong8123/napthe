@@ -509,6 +509,14 @@ footer .phonesupport:hover {
     .navbar-expand-xxl .navbar-nav {
         flex-direction :column;
     }
+
+     .navbar-expand-xxl .navbar-collapse {
+        display: none !important;
+    } 
+
+    .navbar-expand-xxl .navbar-collapse.show {
+        display: flex !important;
+    }
    
   }
   
