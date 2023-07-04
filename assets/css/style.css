@@ -503,6 +503,7 @@ footer .phonesupport:hover {
 }
 @media (min-width: 2000px) {
     .navbar-expand-xxl {
+      display: flex !important;
       flex-flow: row nowrap;
       justify-content: flex-start;
     }
@@ -521,3 +522,4 @@ footer .phonesupport:hover {
       flex-basis: auto;
     }
   }
+  
