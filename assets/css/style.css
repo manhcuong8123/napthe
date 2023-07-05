@@ -16,10 +16,10 @@ body {
 }
 
 #headercontent {
-    width: 660px;
+    width: 100%;
     background-image: linear-gradient(#e32224, #bd1a1d);
     position: relative;
-    
+    width: 680px;
 }
 
 
@@ -36,7 +36,7 @@ body {
 }
 
 #navbarSupportedContent ul {
-    min-height: 550px;
+    min-height: 100vh;
 }
 
 #navbarSupportedContent ul li.nav-item-block {
@@ -94,15 +94,28 @@ body {
 #navbarSupportedContent ul li.nav-item .menu-sb img {
     margin-right: 6px;
 }
-#content {
-    width: 660px;
-    margin: 5px auto ;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 10%;
+.banner{
+    margin-top: 60px;
 }
+#main{
+    width: 650px;
+    margin: 5px auto ;
 
+}
+@media (max-width: 576px) {
+    #main{
+        width: 100%;
+    }
+    .footer-row .img-ft{
+        width: 50% !important;
+        margin: 0px auto 20px !important;
+    }
+}
+.btn-more{
+    width: 100%;
+    margin: 50px auto ;
+    padding: 0 10%;
+}
 #carouselExampleCaptions .carousel-item img {
     border-radius: 10px;
 }
@@ -222,14 +235,14 @@ body {
 .blog .img-blog {
     border-radius: 10px;
     margin-bottom: 20px;
-    width: 295px;
+    width: 100%;
     height: 172px;
     display: block;
     overflow: hidden;
-    object-fit: cover;
 }
 
 .blog .img-blog img {
+    object-fit: cover;
     width : 100%;
     height: 100%;
     vertical-align: top;
@@ -283,16 +296,15 @@ body {
 }
 
 .blog button.btn {
-    width: 317px;
-    height: 37px;   
+    
+     text-align: center;
     background-color: #dedede;
     color: #3d3d3d;
     font-size: 17px;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: none;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 footer {
@@ -301,7 +313,13 @@ footer {
     border-top: 2px solid #e12224;
     margin: 0 auto;
 }
-
+@media (min-width: 768px) {
+    .footer-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 footer .logo-ft img {
     width: 100%;
 }
@@ -501,6 +519,7 @@ footer .phonesupport:hover {
     z-index: 999;
     cursor: pointer;
 }
+
 @media (min-width: 1400px) {
     .navbar-expand-xxl .navbar-toggler {
         display: block !important;
