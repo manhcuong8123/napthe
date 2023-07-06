@@ -643,5 +643,11 @@ footer .phonesupport:hover {
     .navbar-expand-xxl .navbar-collapse.show {
         display: flex !important;
     }
+    .collapse:not(.show) {
+        display: none !important;
+    }
 
 }
+
+
+
