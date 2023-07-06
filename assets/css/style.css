@@ -148,8 +148,8 @@ body {
     }
 
     .navbar-footer .menu-ft-fix{
-        padding: 8px 0 10px !important;
-        width: 422px !important;
+        padding: 8px 0 15px !important;
+        width: 382px !important;
     }
 
 
@@ -166,7 +166,14 @@ body {
     footer .list-footer .col-3:last-child a::after {
         content: none;
     }
-    
+    .aaaa {
+        margin-right: 10px !important;
+    }
+    .aaaa img {
+
+        margin:  auto !important;
+        margin-right:18px ;
+    }
     .list-footer {
         text-align: center;
         margin: auto;
