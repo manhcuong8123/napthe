@@ -108,7 +108,22 @@ body {
     }
     .footer-row .img-ft{
         width: 50% !important;
+        padding: 0 0 0 20px;
+        margin-left: 30px;
         margin: 0px auto 20px !important;
+    }
+    #navbarSupportedContent {
+        z-index: 99;
+        top: 120%;
+        right: 0%;
+    }
+    .navbar-footer .menu-ft-fix .col-2 a {
+        display: block !important;
+    }
+    .navbar-footer .menu-ft-fix {
+        width: 576px;
+        margin: 0 auto;
+        height: 100%;
     }
 }
 .btn-more{
@@ -316,7 +331,7 @@ footer {
 @media (min-width: 768px) {
     .footer-row{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
 }
@@ -395,7 +410,7 @@ footer .phonesupport:hover {
 .navbar-footer .menu-ft-fix {
     width: 660px;
     margin: 0 auto;
-    height: 100%;
+   padding: 20px 0;
 }
 
 .navbar-footer .menu-ft-fix .col-2 a {
