@@ -179,7 +179,7 @@ body {
         content: none;
     }
     .aaaa {
-        margin-right: 10px !important;
+        margin-right: 2px !important;
     }
     .aaaa img {
 
@@ -514,7 +514,7 @@ footer .phonesupport:hover {
 
 .navbar-footer .menu-ft-fix .col-2 a {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     color: #989898;
     font-size: 15px;
     text-decoration: none;
