@@ -200,6 +200,12 @@ body {
         content: none !important; 
      
     }
+    .support span {
+        margin-left: 11px !important; 
+    }
+    .chung span{
+        margin-left: 5px;
+    }
     .ft-list-text{
         width:max-content;
     }
