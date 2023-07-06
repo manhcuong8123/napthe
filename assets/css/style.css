@@ -188,7 +188,7 @@ body {
         margin: 0 10px;
     }
     footer a{
-        font-size: 13px !important;
+        font-size: 12px !important;
     }
   
 }
@@ -636,13 +636,13 @@ footer .phonesupport:hover {
         flex-direction: column;
     }
 
-    .navbar-expand-xxl .navbar-collapse {
+    /* .navbar-expand-xxl .navbar-collapse {
         display: none !important;
     }
 
     .navbar-expand-xxl .navbar-collapse.show {
         display: flex !important;
-    }
+    } */
     .collapse:not(.show) {
         display: none !important;
     }
