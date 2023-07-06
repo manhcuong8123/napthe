@@ -152,6 +152,45 @@ body {
         width: 422px !important;
     }
 
+
+
+
+    footer .list-footer .col-3 a {
+        position: relative;
+    }
+    
+    footer .list-footer .col-3 a::after {
+        content: none;
+    }
+    
+    footer .list-footer .col-3:last-child a::after {
+        content: none;
+    }
+    
+    .list-footer {
+        text-align: center;
+        margin: auto;
+    }
+    
+    footer .list-footer .col-2 a {
+        position: relative;
+    }
+    
+    footer .list-footer .col-2 a::after {
+        position: absolute;
+        content: none !important; 
+     
+    }
+    .ft-list-text{
+        width:max-content;
+    }
+    .ft-text-4{
+        margin: 0 10px;
+    }
+    footer a{
+        font-size: 13px !important;
+    }
+  
 }
 
 .btn-more {
